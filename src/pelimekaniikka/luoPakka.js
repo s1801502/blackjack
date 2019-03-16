@@ -15,7 +15,7 @@ const luoPakka = () => {
 
     for (let m in apiMaa) {
         for (let a in apiArvo) {
-            urlit.push({url: `https://deckofcardsapi.com/static/img/${apiArvo[a]}${apiMaa[m]}.png`});
+            urlit.push({url: `./img/${apiArvo[a]}${apiMaa[m]}.png`});
         }
     }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { tietokoneenVuoro, asetaPelaajanVuoro } from '../actions/vuorotActions';
 
-const JaaNappi = ( {pakka, dispatch, pelaajanVuoro, pelaajanPisteet, tietokoneenPisteet} ) => {
+const JaaNappi = ( {pakka, dispatch, pelaajanVuoro, pelaajanPisteet} ) => {
 
     const jaa = () => {
         dispatch(tietokoneenVuoro(true));
