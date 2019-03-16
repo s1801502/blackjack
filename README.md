@@ -1,4 +1,3 @@
-BlackJack on yksinkertainen React-blackjack-pelisovellus.
 
 Ota käyttöön:
 
